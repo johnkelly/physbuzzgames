@@ -1,0 +1,55 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+/*****************************************************************************/
+/*
+/* Custom
+/*
+/*****************************************************************************/
+text-center {
+  text-align: center;
+}
+
+.blog-cover {
+  max-width: 100%;
+  height: calc(100% - 60px);
+  background-image: url(/assets/cover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-text {
+  padding-top: 100px;
+  text-align: center;
+  color: #FFF;
+}
+
+.cover-text h1 {
+  padding-bottom: 1em;
+}
+
+.cover-text h5 {
+  padding-bottom: 3em;
+}
+
+.mb0 {
+  margin-bottom: 0px;
+}
+
+.blue {
+  color: #4582EC;
+}
