@@ -23,7 +23,7 @@ text-center {
 
 .blog-cover {
   max-width: 100%;
-  height: calc(100% - 60px);
+  min-height: calc(100% - 60px);
   background-image: url(/assets/cover.png);
   background-size: cover;
   background-repeat: no-repeat;
